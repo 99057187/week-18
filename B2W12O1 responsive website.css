@@ -1,0 +1,62 @@
+html{
+	font:lato;
+	font-size:10px;
+}
+div{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	border: solid #f8f32b 1px;
+	background-color:#f8f32b;
+}
+#menu{
+	position:absolute;
+	top:10px;
+	left:15px;
+	font-size:3rem;
+	color:white;
+}
+#logo{
+	position:absolute;
+	top:51px;
+	left:55%;
+	width:30rem;
+	height:13rem;
+}
+#rijles{
+	position:absolute;
+	top:181px;
+	left:0px;
+	width:100%;
+	height:35rem;
+}
+#car{
+	position:absolute;
+	top:550px;
+	left:40px;
+	font-size:4rem;
+	color:grey;
+}
+#lessen{
+	position:absolute;
+	top:525px;
+	left:110px;
+	font-size:3rem;
+}
+#line{
+	position:absolute;
+	top:600px;
+	left:20px;
+	width:620px;
+	height:0px;
+	border: solid grey 1px;
+	color:grey;
+}
+#tekst1{
+	position:absolute;
+	top:620px;
+	left:50px;
+	right:70px;
+}
