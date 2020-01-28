@@ -2,7 +2,7 @@ html{
 	font:lato;
 	font-size:10px;
 }
-div{
+#balk{
 	position:absolute;
 	top:0%;
 	left:0%;
@@ -129,117 +129,225 @@ div{
 	right:9.12%;
 	font-size:2rem;
 }
+#linkjes{
+	display:none;
+}
+#balktekst{
+	display:none;
+}
 @media(min-width:769px){
+	#balktekst{
+		display:inline;
+	}
+	#phone{
+		position:absolute;
+		top:15px;
+		left:14%;
+		font-size:1.5rem;
+		color:black;
+	}
+	#telnummer{
+		position:absolute;
+		top:13px;
+		left:17%;
+		font-size:1.5rem;
+		color:black;
+	}
+	#watsapp{
+		position:absolute;
+		top:14px;
+		left:28%;
+		font-size:1.7rem;
+		color:black;
+	}
+	#telnummer2{
+		position:absolute;
+		top:13px;
+		left:31%;
+		font-size:1.5rem;
+		color:black;
+	}
+	#clock{
+		position:absolute;
+		top:14px;
+		left:41.5%;
+		font-size:1.7rem;
+		color:black;
+	}
+	#datum{
+		position:absolute;
+		top:13px;
+		left:44.5%;
+		font-size:1.5rem;
+		color:black;
+	}
+	#dash{
+		position:absolute;
+		top:14px;
+		left:60.5%;
+		font-size:1.7rem;
+		color:black;
+	}
+	#board{
+		position:absolute;
+		top:13px;
+		left:64%;
+		font-size:1.5rem;
+		color:black;
+	}
+	#book{
+		position:absolute;
+		top:14px;
+		left:77%;
+		font-size:1.7rem;
+		color:black;
+	}
+	#insta{
+		position:absolute;
+		top:14px;
+		left:80%;
+		font-size:1.7rem;
+		color:black;
+	}
+	#twitter{
+		position:absolute;
+		top:14px;
+		left:83%;
+		font-size:1.7rem;
+		color:black;
+	}
 	#logo{
 		position:relative;
-		top:38px;
-		left:60%;
-		width:30rem;
-		height:13rem;
+		top:42px;
+		left:0.5%;
+		width:26rem;
+		height:12rem;
 	}
 	#rijles{
 		position:absolute;
 		top:181px;
-		left:15%;
-		width:70%;
-		height:37rem;
+		left:-3px;
+		width:100%;
+		height:45rem;
 		border: solid #f8f32b 5px;
 	}
 	#car{
 		position:absolute;
-		top:570px;
-		left:5.21%;
-		font-size:4rem;
+		top:715px;
+		left:0%;
+		font-size:2.7rem;
 		color:grey;
 	}
 	#lessen{
 		position:absolute;
-		top:545px;
-		left:14.3%;
-		font-size:3rem;
+		top:685px;
+		left:8%;
+		font-size:2.7rem;
 	}
 	#line1{
 		position:absolute;
-		top:620px;
-		left:5%;
-		width:85.7%;
+		top:740px;
+		left:0%;
+		width:30%;
 		height:0px;
 		border: solid grey 1px;
 		color:grey;
-	}
-	#tekst1{
-		position:absolute;
-		top:640px;
-		left:6.5%;
-		right:9.12%;
-		font-size:2rem;
 	}
 	#proefles{
 		background-color:#F5D431;
 		border-color:#F5D431; 
 		position:absolute;
-		top:905px;
-		left:10.42%;
-		width:72%;
+		top:1050px;
+		left:0%;
+		width:30%;
 		height:75px;
-		font-size:4rem;
+		font-size:2.7rem;
 	}
 	#locaties{
 		position:absolute;
-		top:980px;
-		left:14.32%;
-		font-size:3rem;
+		top:685px;
+		left:43%;
+		font-size:2.7rem;
 	}
 	#map{
 		position:absolute;
-		top:1005px;
-		left:5.2%;
-		font-size:4rem;
+		top:715px;
+		left:35%;
+		font-size:2.7rem;
 		color:grey;
 	}
 	#line2{
 		position:absolute;
-		top:1050px;
-		left:5%;
-		width:85.7%;
-		height:0px;
+		top:740px;
+		left:35%;
+		width:30%;
 		border: solid grey 1px;
 		color:grey;
 	}
-	#tekst2{
-		position:absolute;
-		top:1070px;
-		left:5.6%;
-		right:9.12%;
-		font-size:2rem;
-	}
 	#cap{
 		position:absolute;
-		top:1470px;
-		left:5.2%;
-		font-size:4rem;
+		top:715px;
+		left:70%;
+		font-size:2.7rem;
 		color:grey;
 	}
 	#rijlessen{
 		position:absolute;
-		top:1445px;
-		left:14.32%;
-		font-size:3rem;
+		top:685px;
+		left:78%;
+		font-size:2.7rem;
 	}
 	#line3{
 		position:absolute;
-		top:1509px;
-		left:5%;
-		width:85.7%;
+		top:740px;
+		left:70%;
+		width:30%;
 		height:0px;
 		border: solid grey 1px;
 		color:grey;
 	}
+	#linkjes{
+		position:absolute;
+		top:100px;
+		left:35%;
+		display:inline;
+		font-size:1.7rem;
+	}
+	#down1{
+		margin:0px 1.1rem 0px 0px;
+	}
+	#down2{
+		margin:0px 1.1rem 0px 0px;
+	}
+	#theorie{
+		margin:0px 1.3rem 0px 0px;
+	}
+	#opfris{
+		margin:0px 1.3rem 0px 0px;
+	}
+	#info{
+		position:absolute;
+		top:0%;
+		left:10%;
+		width:80%;
+		height:50px;
+	}
+	#tekst1{
+		position:absolute;
+		top:750px;
+		left:0%;
+		width:30%;
+	}
+	#tekst2{
+		position:absolute;
+		top:750px;
+		left:35%;
+		width:30%;
+	}
 	#tekst3{
 		position:absolute;
-		top:1535px;
-		left:5.6%;
-		right:9.12%;
-		font-size:2rem;
+		top:750px;
+		left:70%;
+		width:30%;
 	}
 }
