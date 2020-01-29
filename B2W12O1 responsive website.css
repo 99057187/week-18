@@ -2,6 +2,12 @@ html{
 	font:lato;
 	font-size:10px;
 }
+#fototekst{
+	display:none;
+}
+#fototekst2{
+	display:none;
+}
 #balk{
 	position:absolute;
 	top:0%;
@@ -392,12 +398,12 @@ html{
 	#fototekst2{
 		position:absolute;
 		top:695px;
-		left:43.5%;
-		width:170px;
+		left:42.5%;
+		width:210px;
 		height:30px;
 		border:solid #F5D431 5px;
 		background-color:#f8f32b;
-		font-size:1rem;
+		font-size:1.3rem;
 	}
 	#ptje2{
 		margin:10px 10px 10px 10px;
