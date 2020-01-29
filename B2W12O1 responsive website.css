@@ -150,6 +150,12 @@ html{
 	margin:0px 0px 100px 0px;
 }
 @media(min-width:769px){
+	#fototekst{
+	display:inline;
+}
+#fototekst2{
+	display:inline;
+}
 	#balktekst{
 		display:inline;
 	}
