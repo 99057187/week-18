@@ -20,8 +20,8 @@ html{
 }
 #logo{
 	position:relative;
-	top:39px;
-	left:55%;
+	top:43px;
+	left:35%;
 	width:30rem;
 	height:13rem;
 }
@@ -42,7 +42,7 @@ html{
 #lessen{
 	position:absolute;
 	top:525px;
-	left:14.3%;
+	left:16%;
 	font-size:3rem;
 }
 #line1{
@@ -65,28 +65,28 @@ html{
 	background-color:#F5D431;
 	border-color:#F5D431; 
 	position:absolute;
-	top:975px;
+	top:750px;
 	left:10.42%;
 	width:72%;
 	height:75px;
-	font-size:4rem;
+	font-size:3rem;
 }
 #locaties{
 	position:absolute;
-	top:1050px;
-	left:14.32%;
+	top:820px;
+	left:16%;
 	font-size:3rem;
 }
 #map{
 	position:absolute;
-	top:1075px;
+	top:845px;
 	left:5.2%;
 	font-size:4rem;
 	color:grey;
 }
 #line2{
 	position:absolute;
-	top:1120px;
+	top:885px;
 	left:5%;
 	width:80.7%;
 	height:0px;
@@ -95,27 +95,27 @@ html{
 }
 #tekst2{
 	position:absolute;
-	top:1140px;
+	top:905px;
 	left:5.6%;
 	right:9.12%;
 	font-size:2rem;
 }
 #cap{
 	position:absolute;
-	top:1450px;
+	top:1040px;
 	left:5.2%;
 	font-size:4rem;
 	color:grey;
 }
 #rijlessen{
 	position:absolute;
-	top:1425px;
-	left:14.32%;
+	top:1015px;
+	left:16%;
 	font-size:3rem;
 }
 #line3{
 	position:absolute;
-	top:1489px;
+	top:1080px;
 	left:5%;
 	width:80.7%;
 	height:0px;
@@ -124,7 +124,7 @@ html{
 }
 #tekst3{
 	position:absolute;
-	top:1515px;
+	top:1100px;
 	left:5.6%;
 	right:9.12%;
 	font-size:2rem;
@@ -134,6 +134,14 @@ html{
 }
 #balktekst{
 	display:none;
+}
+#video{
+	position:absolute;
+	top:1250px;
+	left:10%;
+	width:80%;
+	height:400px;
+	margin:0px 0px 100px 0px;
 }
 @media(min-width:769px){
 	#balktekst{
@@ -349,5 +357,22 @@ html{
 		top:750px;
 		left:70%;
 		width:30%;
+	}
+}
+@media(min-width:1200px){
+	#rijles{
+		height:55rem;
+	}
+	#info{
+		position:absolute;
+		top:60px;
+	}
+	#proefles{
+		position:absolute;
+		top:950px;
+	}
+	#video{
+		position:absolute;
+		top:1150px;
 	}
 }
