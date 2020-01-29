@@ -375,4 +375,32 @@ html{
 		position:absolute;
 		top:1150px;
 	}
+	#fototekst{
+		position:absolute;
+		top:630px;
+		left:45%;
+		width:130px;
+		height:50px;
+		border:solid #F5D431 5px;
+		background-color:#f8f32b;
+		font-size:1rem;
+	}
+	#ptje{
+		margin:10px 10px 10px 10px;
+		color:grey;
+	}
+	#fototekst2{
+		position:absolute;
+		top:695px;
+		left:43.5%;
+		width:170px;
+		height:30px;
+		border:solid #F5D431 5px;
+		background-color:#f8f32b;
+		font-size:1rem;
+	}
+	#ptje2{
+		margin:10px 10px 10px 10px;
+		color:grey;
+	}
 }
